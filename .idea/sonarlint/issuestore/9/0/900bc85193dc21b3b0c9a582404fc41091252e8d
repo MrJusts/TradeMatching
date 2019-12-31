@@ -1,8 +1,6 @@
 
-osquid:S2095/"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(‘ΒΤώÿÿÿÿ8αΧςχτ-
-rsquid:UselessImportCheck"BRemove this unused import 'net.corda.core.identity.CordaX500Name'.(¤¨Έώÿÿÿÿ8Ά—ΰφτ-
-V
-squid:S106+"9Replace this use of System.out or System.err by a logger.(“ν¨Υ8ΠΙρχτ-
+osquid:S2095."LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(‘ΒΤώÿÿÿÿ8ΊΛ‹Ώυ-
 [
-squid:S1060"9Replace this use of System.out or System.err by a logger.(±„χΈϊÿÿÿÿ8ƒλαφτ-
-psquid:UselessImportCheck"ERemove this unused import 'java.nio.file.FileAlreadyExistsException'.(¥ίΧ³8™γφτ-
+squid:S106/"9Replace this use of System.out or System.err by a logger.(±„χΈϊÿÿÿÿ8ƒλαφτ-
+[
+squid:S106)"9Replace this use of System.out or System.err by a logger.(δη¨όÿÿÿÿ8ΠΙρχτ-

@@ -1,5 +1,2 @@
 
-hsquid:CallToDeprecatedMethodS"4Remove this use of "FinalityFlow"; it is deprecated.(ø‘ˆüÿÿÿÿ8‘ıöô-
-_squid:UselessImportCheck"4Remove this unused import 'java.io.FileInputStream'.(˜³ÉÓ8Şä˜÷ô-
-Xsquid:S1191"5Use classes from the Java API instead of Sun classes.(ùÍ­‚ûÿÿÿÿ8Ê·şõô-
-tsquid:UselessImportCheck"DRemove this unused import 'com.sun.xml.internal.xsom.impl.scd.Step'.(ùÍ­‚ûÿÿÿÿ8¨·¸õô-
+hsquid:CallToDeprecatedMethodP"4Remove this use of "FinalityFlow"; it is deprecated.(ø‘ˆüÿÿÿÿ8 ‘¥¾õ-

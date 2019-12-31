@@ -2,7 +2,6 @@ package com.template;
 
 import net.corda.client.rpc.CordaRPCClient;
 import net.corda.core.crypto.SecureHash;
-import net.corda.core.identity.CordaX500Name;
 import net.corda.core.messaging.CordaRPCOps;
 import net.corda.core.node.NodeInfo;
 import net.corda.core.utilities.NetworkHostAndPort;
@@ -10,7 +9,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.*;
-import java.nio.file.FileAlreadyExistsException;
 import java.util.List;
 import java.util.jar.JarInputStream;
 

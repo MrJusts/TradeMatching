@@ -11,7 +11,7 @@ buildscript {
         junit_version = constants.getProperty("junitVersion")
         quasar_version = constants.getProperty("quasarVersion")
         log4j_version = constants.getProperty("log4jVersion")
-        slf4j_version = constants.getProperty("slf4jVersion")
+        slf4j_version = constants.getProperty("slf4jVersion") as Object
         corda_platform_version = constants.getProperty("platformVersion").toInteger()
         //springboot
         spring_boot_version = '2.0.2.RELEASE'
@@ -101,6 +101,7 @@ task deployNodes(type: net.corda.plugins.Cordform, dependsOn: ['jar']) {
         }
         cordapp project(':contracts')
         cordapp project(':workflows')
+        cordapp project(':clients')
     }
     node {
         name "O=Notary,L=London,C=GB"
