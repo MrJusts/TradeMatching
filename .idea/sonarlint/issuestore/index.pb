@@ -39,3 +39,12 @@ h
 8contracts/src/main/java/com/template/state/IOUState.java,4/e/4ea91c086add8c26557f193eb58cd7dae7928803
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+^
+.clients/logs/node-Justss-MacBook-Pro.local.log,7/2/72c212e6d25613a55cc4d8c456f973137081fb41
+D
+clients/build.gradle,9/0/902dc2fcc770a9642a7a26989bcd8b05d261e486
+F
+workflows/build.gradle,1/6/16b0693f20e336bb405caefb40b71f8d10cf3818

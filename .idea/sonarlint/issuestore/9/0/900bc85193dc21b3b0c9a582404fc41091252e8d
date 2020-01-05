@@ -1,6 +1,6 @@
 
 osquid:S2095."LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(‘ΒΤώÿÿÿÿ8ΊΛ‹Ώυ-
 [
-squid:S106/"9Replace this use of System.out or System.err by a logger.(±„χΈϊÿÿÿÿ8ƒλαφτ-
+squid:S106)"9Replace this use of System.out or System.err by a logger.(δη¨όÿÿÿÿ8ÿό†ζυ-
 [
-squid:S106)"9Replace this use of System.out or System.err by a logger.(δη¨όÿÿÿÿ8ΠΙρχτ-
+squid:S106/"9Replace this use of System.out or System.err by a logger.(±„χΈϊÿÿÿÿ8ƒλαφτ-

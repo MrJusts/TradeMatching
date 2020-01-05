@@ -33,6 +33,10 @@ buildscript {
     }
 }
 
+plugins {
+    id "org.sonarqube" version "2.7"
+}
+
 allprojects {
     apply from: "${rootProject.projectDir}/repositories.gradle"
     apply plugin: 'java'
@@ -55,9 +59,6 @@ allprojects {
         reproducibleFileOrder = true
     }
 }
-
-
-
 
 apply plugin: 'net.corda.plugins.cordapp'
 apply plugin: 'net.corda.plugins.cordformation'
@@ -88,7 +89,7 @@ dependencies {
 }
 cordapp {
     info {
-        name "CorDapp Template"
+        name "TradeMatching"
         vendor "Corda Open Source"
         targetPlatformVersion corda_platform_version
         minimumPlatformVersion corda_platform_version
@@ -101,7 +102,6 @@ task deployNodes(type: net.corda.plugins.Cordform, dependsOn: ['jar']) {
         }
         cordapp project(':contracts')
         cordapp project(':workflows')
-        cordapp project(':clients')
     }
     node {
         name "O=Notary,L=London,C=GB"
@@ -139,4 +139,3 @@ task installQuasar(type: Copy) {
         rename 'quasar-core(.*).jar', 'quasar.jar'
     }
 }
-

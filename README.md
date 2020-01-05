@@ -1,3 +1,4 @@
+[![Quality Gate](http://127.0.0.1:9000/api/badges/gate?key=Corda)](http://localhost:9000/dashboard/index/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges)
 
 # Trade Matching
 

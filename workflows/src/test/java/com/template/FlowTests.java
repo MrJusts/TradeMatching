@@ -12,7 +12,6 @@ import org.junit.Test;
 
 public class FlowTests {
     private final MockNetwork network = new MockNetwork(new MockNetworkParameters(ImmutableList.of(
-        TestCordapp.findCordapp("com.template.contracts"),
         TestCordapp.findCordapp("com.template.flow")
     )));
     private final StartedMockNode a = network.createNode();
