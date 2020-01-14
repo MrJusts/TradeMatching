@@ -48,3 +48,9 @@ D
 clients/build.gradle,9/0/902dc2fcc770a9642a7a26989bcd8b05d261e486
 F
 workflows/build.gradle,1/6/16b0693f20e336bb405caefb40b71f8d10cf3818
+t
+Dworkflows/src/integrationTest/java/com/template/DriverBasedTest.java,d/8/d80bd95866325f9e49b9b080f8887e7c9b6a1523
+d
+4workflows/src/test/java/com/template/NodeDriver.java,7/0/70731a2591b1f9f148be5a817e8b279a9b0443e4
+g
+7workflows/src/test/java/com/template/ContractTests.java,8/f/8f74cca565d6865262183a2d2b679f626d190929
