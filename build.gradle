@@ -23,6 +23,7 @@ buildscript {
         mavenCentral()
         jcenter()
         maven { url 'https://ci-artifactory.corda.r3cev.com/artifactory/corda-releases' }
+        maven { url 'https://repo.gradle.org/gradle/libs-releases' }
     }
 
     dependencies {
@@ -140,5 +141,3 @@ task installQuasar(type: Copy) {
         rename 'quasar-core(.*).jar', 'quasar.jar'
     }
 }
-
-maven { url 'https://repo.gradle.org/gradle/libs-releases' }
