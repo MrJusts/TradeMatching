@@ -5,7 +5,7 @@ buildscript {
     ext {
 
         corda_release_group = constants.getProperty("cordaReleaseGroup")
-        corda_release_version = constants.getProperty("cordaVersion")
+        corda_release_version = constants.getProperty("4.4")
         corda_gradle_plugins_version = constants.getProperty("gradlePluginsVersion")
         kotlin_version = constants.getProperty("kotlinVersion")
         junit_version = constants.getProperty("junitVersion")
