@@ -54,3 +54,5 @@ d
 4workflows/src/test/java/com/template/NodeDriver.java,7/0/70731a2591b1f9f148be5a817e8b279a9b0443e4
 g
 7workflows/src/test/java/com/template/ContractTests.java,8/f/8f74cca565d6865262183a2d2b679f626d190929
+_
+/.idea/runConfigurations/Run_Template_Client.xml,9/4/94fe28a2e274fd6d211d69e81228ff8daecc9baf
